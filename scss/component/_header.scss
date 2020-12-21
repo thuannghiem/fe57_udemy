@@ -1,0 +1,21 @@
+.header_left {
+  display: flex;
+  align-items: center;
+
+  a {
+    flex-grow: 1;
+  }
+  .categories {
+    flex-grow: 1;
+  }
+  @include search();
+}
+
+.header_right {
+  .btn-login {
+    border: 1px solid #686f7a;
+    color: #686f7a;
+    background-color: #ffffff;
+    margin-left: 1rem;
+  }
+}

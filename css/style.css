@@ -1,0 +1,87 @@
+#carousel {
+  background-image: url("../../img/cover.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+#carousel form {
+  flex-grow: 5;
+}
+
+#carousel form .input-group {
+  border: 1px solid #00000026;
+}
+
+#carousel form input {
+  border: transparent;
+}
+
+#carousel form input:focus {
+  box-shadow: none;
+}
+
+#carousel form i {
+  padding: 10px;
+  color: red;
+  background-color: white;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#carousel form i:hover {
+  background-color: red;
+  color: white;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_left a {
+  flex-grow: 1;
+}
+
+.header_left .categories {
+  flex-grow: 1;
+}
+
+.header_left form {
+  flex-grow: 5;
+}
+
+.header_left form .input-group {
+  border: 1px solid #00000026;
+}
+
+.header_left form input {
+  border: transparent;
+}
+
+.header_left form input:focus {
+  box-shadow: none;
+}
+
+.header_left form i {
+  padding: 10px;
+  color: red;
+  background-color: white;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.header_left form i:hover {
+  background-color: red;
+  color: white;
+}
+
+.header_right .btn-login {
+  border: 1px solid #686f7a;
+  color: #686f7a;
+  background-color: #ffffff;
+  margin-left: 1rem;
+}
